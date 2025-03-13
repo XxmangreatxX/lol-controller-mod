@@ -1,0 +1,21 @@
+{
+  "name": "lol-controller-mod",
+  "version": "1.0.0",
+  "description": "A controller mod for League of Legends using raw HID input and a virtual controller via ViGEmBus.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-hid": "^2.2.0",
+    "robotjs": "^0.6.0",
+    "vigemclient": "^1.5.2"
+  },
+  "devDependencies": {
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3",
+    "ref-struct-napi": "^1.1.1"
+  }
+}
